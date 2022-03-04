@@ -5,11 +5,12 @@ public static void main(String[] args) {
 	
 	//comment in dev branch
 	
-	addition();
+	addition(10,10);
 }
 
-public static int addition()
+public static long addition(long a, long b)
 {
-	return 20;
+	long result = a + b;
+	return result;
 }
 }
