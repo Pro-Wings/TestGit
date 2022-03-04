@@ -8,8 +8,8 @@ public static void main(String[] args) {
 	addition();
 }
 
-public static int addition()
+public static int addition(int a, int b)
 {
-	return 20;
+	return a+b;
 }
 }
